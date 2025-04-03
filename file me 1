@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>one savage file</title>
+</head>
+<body>
+
+<button onclick="closeAllWindows()">click me im not going to hurt you</button>
+
+
+<script>
+function closeAllWindows() {
+  window.close();
+}
+</script>
+
+<meta charset="utf-8">
+</head>
+<body>
+    <button id="button">Click me now</button>
+    <script type="text/javascript">
+    var urls = ['https://google.com/', 'https://coolmathgames.com/' , 'https://vscode.dev/' , 'https://classroom.google.com'];
+
+    var $button = document.getElementById("button");
+
+    $button.addEventListener("click", function() {
+        for(i in urls) {
+            var url = urls[i];
+            var $a = document.createElement("a");
+            $a.setAttribute("href", url);
+            $a.setAttribute("target", "_blank");
+            $a.click();
+        }
+    });
+    </script>
+
+<button class="btn btn-success" onclick="location.href='http://google.com';">
+    Google
+  </button>
+
+</body>
+</html>
