@@ -34,7 +34,7 @@ function closeAllWindows() {
     });
     </script>
 
-<button class="btn btn-success" onclick="location.href='http://google.com';">
+<button class="btn btn-success" onclick="location.href='https://github.com/itsjustcaleb';">
     Google
   </button>
 
