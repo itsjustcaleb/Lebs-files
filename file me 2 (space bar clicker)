@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <form action="https://classroom.google.com">
+    <input type="submit" value="Click Here If teacher Is coming" />
+</form>
+
+  <p>Space Clicker</p>
+
+<button type="button" onclick="myFunction()">-------------------Click Me!-------------------</button>
+
+<p id="demo">0</p>
+
+<script>
+var add = (function () {
+  var counter = 0;
+  return function () {return counter += 1;}
+})();
+
+function myFunction(){
+  document.getElementById("demo").innerHTML = add();
+}
+</script>
+
+<footer>by caleb<big>
+
+<title>Space Clicker By Lebey
